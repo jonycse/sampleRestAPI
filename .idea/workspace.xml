@@ -31,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookapiHandler.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bookapiHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/apihandler/bookapiHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="41" selection-start="515" selection-end="515" vertical-scroll-proportion="0.5730337">
+            <state line="18" column="41" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/bookapi/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="17" column="39" selection-start="705" selection-end="705" vertical-scroll-proportion="0.76123595">
               <folding />
             </state>
           </provider>
@@ -84,10 +84,10 @@
         <option value="$PROJECT_DIR$/api/bookapi/apiHandler.py" />
         <option value="$PROJECT_DIR$/sampleRestAPI/urls.py" />
         <option value="$PROJECT_DIR$/api/bookapi/admin.py" />
-        <option value="$PROJECT_DIR$/api/bookapi/models.py" />
         <option value="$PROJECT_DIR$/api/apidoc.html" />
         <option value="$PROJECT_DIR$/api/apihandler/urls.py" />
         <option value="$PROJECT_DIR$/api/apihandler/bookapiHandler.py" />
+        <option value="$PROJECT_DIR$/api/bookapi/models.py" />
       </list>
     </option>
   </component>
@@ -135,6 +135,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sampleRestAPI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sampleRestAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sampleRestAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sampleRestAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sampleRestAPI" />
@@ -495,11 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/bookapi/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/apihandler/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="6" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
@@ -509,7 +518,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/apihandler/bookapiHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="515" selection-end="515" vertical-scroll-proportion="0.5730337">
+        <state line="18" column="41" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bookapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="705" selection-end="705" vertical-scroll-proportion="0.76123595">
           <folding />
         </state>
       </provider>

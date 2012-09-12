@@ -14,14 +14,6 @@ class Book(models.Model):
     def __unicode__(self):
         return self.name
 
-'''
-class Book(models.Model):
-    name = models.CharField(max_length=75)
-    def __unicode__(self):
-        return self.name
+    #TODO: when add a book to category updade total book no under a category
+    #TODO: need to override save method
 
-class BookCategory(models.Model):
-    book = models.ForeignKey(Book, related_name="puzzle_questions")
-    text = models.TextField(max_length=1024)
-
-'''

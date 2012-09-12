@@ -12,7 +12,7 @@ class BookApiHandler(BaseHandler):
     fields=("id","publish_data", "book_title","name","author")
 
 
-    @throttle(10, 1*60)
+    @throttle(10, 1*60) # 10 call per minute
     def read(self, request, book_id=None,*args, **kwargs):
         try:
             if "allbook" in request.path:
