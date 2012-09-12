@@ -1,3 +1,8 @@
+'''
+URL Mapping with handler
+'''
+
+
 from django.conf.urls import patterns, include, url
 
 from piston.resource import Resource
