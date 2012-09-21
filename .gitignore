@@ -29,6 +29,8 @@ local.properties
 .buildpath
 
 
+.idea
+
 #################
 ## Visual Studio
 #################
