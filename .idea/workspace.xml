@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4b93bcb-183e-4994-86e0-72fb098be998" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
-    </list>
+    <list default="true" id="e4b93bcb-183e-4994-86e0-72fb098be998" name="Default" comment="" />
     <ignored path="sampleRestAPI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +83,7 @@
       <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.6315789">
+            <state line="23" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.36842105">
               <folding />
             </state>
           </provider>
@@ -442,7 +440,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -624,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.6315789">
+        <state line="23" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.36842105">
           <folding />
         </state>
       </provider>
