@@ -26,7 +26,7 @@ http://127.0.0.1:8000/myapi/allbook/xml/
 http://127.0.0.1:8000/myapi/category/1/
 http://127.0.0.1:8000/myapi/category/1/xml/
 
-Book API(Extended):
+*Book API(Extended):*
 
 http://127.0.0.1:8000/myapi/extend/allbook/
 http://127.0.0.1:8000/myapi/extend/allbook/xml/

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b93bcb-183e-4994-86e0-72fb098be998" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/bookapiextend/models.py" afterPath="$PROJECT_DIR$/api/bookapiextend/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="sampleRestAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/bookapiextend/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="0.45535713">
+            <state line="20" column="43" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+            <state line="26" column="21" selection-start="627" selection-end="627" vertical-scroll-proportion="0.5263158">
               <folding />
             </state>
           </provider>
@@ -140,8 +141,8 @@
         <option value="$PROJECT_DIR$/api/bookapiextend/admin.py" />
         <option value="$PROJECT_DIR$/api/apihandler/bookapiExtendedHandler.py" />
         <option value="$PROJECT_DIR$/api/apihandler/urls.py" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/api/bookapiextend/models.py" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -605,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampleRestAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" />
@@ -624,7 +618,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/bookapiextend/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="0.45535713">
+        <state line="20" column="43" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="627" selection-end="627" vertical-scroll-proportion="0.5263158">
           <folding />
         </state>
       </provider>
