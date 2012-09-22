@@ -83,7 +83,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.36842105">
+            <state line="28" column="5" selection-start="674" selection-end="674" vertical-scroll-proportion="0.5263158">
               <folding />
             </state>
           </provider>
@@ -522,13 +522,6 @@
         <state line="5" column="32" selection-start="143" selection-end="143" vertical-scroll-proportion="0.23876405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/bookapi/apiHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" />
@@ -620,9 +613,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="330" selection-end="334" vertical-scroll-proportion="0.30357143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.36842105">
+        <state line="28" column="5" selection-start="674" selection-end="674" vertical-scroll-proportion="0.5263158">
           <folding />
         </state>
       </provider>
