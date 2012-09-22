@@ -13,4 +13,19 @@ Running the project:
     - python manage.py runserver
 
 
-For API call read the apidoc.html
+Some API call example:
+
+Book API:
+
+http://127.0.0.1:8000/myapi/getbook/1/
+http://127.0.0.1:8000/myapi/getbook/1/xml/
+
+http://127.0.0.1:8000/myapi/allbook/
+http://127.0.0.1:8000/myapi/allbook/xml/
+
+http://127.0.0.1:8000/myapi/category/1/
+http://127.0.0.1:8000/myapi/category/1/xml/
+
+Book API(Extended):
+http://127.0.0.1:8000/myapi/extend/allbook/
+http://127.0.0.1:8000/myapi/extend/allbook/xml/
