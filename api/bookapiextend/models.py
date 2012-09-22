@@ -5,6 +5,10 @@ class BookCategory(models.Model):
     def __unicode__(self):
         return self.text
 
+
+    '''
+    Many to many field example
+    '''
 class Book(models.Model):
     name = models.CharField(max_length=75)
     book_title=models.CharField(max_length=100, default="book title")
