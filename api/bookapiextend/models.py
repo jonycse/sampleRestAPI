@@ -14,7 +14,7 @@ class Book(models.Model):
     book_title=models.CharField(max_length=100, default="book title")
     author=models.CharField(max_length=100, default="author name not set")
     publish_data=models.DateTimeField(auto_now_add=True, null=True, blank=True)
-    book_cat = models.ManyToManyField(BookCategory, related_name="puzzle_questions", null=True)
+    book_cat = models.ManyToManyField(BookCategory, related_name="book_cat", null=True)
     def __unicode__(self):
         return self.name
 

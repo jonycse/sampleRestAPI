@@ -16,7 +16,7 @@ class BookApiExtendedHandler(BaseHandler):
     def read(self, request, book_id=None,*args, **kwargs):
         try:
             if "allbook" in request.path:
-                return Book.objects.all()
+                return Book.objects.values()
 
             return {"error":"Error"}
         except ObjectDoesNotExist:
