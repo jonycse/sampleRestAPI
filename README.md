@@ -30,3 +30,5 @@ http://127.0.0.1:8000/myapi/category/1/xml/
 
 + http://127.0.0.1:8000/myapi/extend/allbook/
 + http://127.0.0.1:8000/myapi/extend/allbook/xml/
++ http://127.0.0.1:8000/myapi/extend/category/1/ # books of category 1
++ http://127.0.0.1:8000/myapi/extend/category_name/child/ # books of category name child

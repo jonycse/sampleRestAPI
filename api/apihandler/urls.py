@@ -25,4 +25,7 @@ urlpatterns = patterns('',
     #bookapiExtended
     url(r'^extend/allbook/$', Resource(BookApiExtendedHandler)),
     url(r'^extend/allbook/xml/$', Resource(BookApiExtendedHandler), { 'emitter_format': 'xml' }),
+
+    url(r'^extend/category/(?P<cat_id>\d+)/$', Resource(BookApiExtendedHandler)),
+    url(r'^extend/category_name/(?P<cat_name>\w+)/$', Resource(BookApiExtendedHandler)),
 )
