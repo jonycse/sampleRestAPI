@@ -9,7 +9,7 @@ from piston.resource import Resource
 from api.apihandler.bookapiHandler import BookApiHandler, BookApiCatHandler
 
 from api.apihandler.bookapiExtendedHandler import BookApiExtendedHandler
-
+from django.views.decorators.cache import cache_page
 
 urlpatterns = patterns('',
     url(r'^getbook/(?P<book_id>\d+)/$', Resource(BookApiHandler)),
@@ -24,7 +24,9 @@ urlpatterns = patterns('',
 
     #bookapiExtended
     url(r'^extend/allbook/$', Resource(BookApiExtendedHandler)),
-    url(r'^extend/allbook/xml/$', Resource(BookApiExtendedHandler), { 'emitter_format': 'xml' }),
+    #url(r'^extend/allbook/xml/$', Resource(BookApiExtendedHandler), { 'emitter_format': 'xml' }),
+
+    url(r'^extend/allbook/xml/$', cache_page(60*1)(Resource(BookApiExtendedHandler)), { 'emitter_format': 'xml' }),
 
     url(r'^extend/category/(?P<cat_id>\d+)/$', Resource(BookApiExtendedHandler)),
     url(r'^extend/category_name/(?P<cat_name>\w+)/$', Resource(BookApiExtendedHandler)),
