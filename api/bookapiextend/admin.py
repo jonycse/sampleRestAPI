@@ -24,6 +24,7 @@ class BookForm(forms.ModelForm):
 
 class BookAdmin(admin.ModelAdmin):
     form = BookForm
+    search_fields = ['name']
 
 
 admin.site.register(BookCategory)
