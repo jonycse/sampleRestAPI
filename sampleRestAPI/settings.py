@@ -2,12 +2,15 @@
 
 import sys
 import os
+import logging
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+PROJECT_DIR=os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+
 ADMINS = (
-    # ('jony', 'jony.cse@gamil.com'),
+    ('jony', 'jony.cse@gamil.com'),
 )
 
 
@@ -109,7 +112,8 @@ ROOT_URLCONF = 'sampleRestAPI.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'sampleRestAPI.wsgi.application'
 
-TEMPLATE_DIRS = ('C:/Django-1.4/prac/sampleRestAPI/templates',)
+#TEMPLATE_DIRS = ('C:/Django-1.4/prac/sampleRestAPI/templates',)
+TEMPLATE_DIRS = ( os.path.join(PROJECT_DIR, 'templates').replace('\\','/'),)
 
 INSTALLED_APPS = (
     'django.contrib.auth',

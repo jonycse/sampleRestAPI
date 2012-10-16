@@ -6,6 +6,9 @@ from django.core.exceptions import ObjectDoesNotExist
 import logging
 from api.bookapi.models import Book, BookCategory
 
+from api.utility import errorCodes
+from api.utility.apiUtility import ApiUtility, Error, Success
+
 class BookApiHandler(BaseHandler):
     allowed_methods = ('GET')
     model = Book
@@ -21,9 +24,9 @@ class BookApiHandler(BaseHandler):
             if "getbook" in request.path:
                 return Book.objects.get(pk=book_id)
 
-            return {"error":"Error"}
+            return Error(errorCodes.NOT_FOUND, 'request not found').__dict__()
         except ObjectDoesNotExist:
-            return {"error":"not found"}
+            return Error(errorCodes.BAD_REQUEST, 'bad request').__dict__()
 
 
 

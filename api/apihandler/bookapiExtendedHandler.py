@@ -2,12 +2,13 @@ from piston.handler import BaseHandler, AnonymousBaseHandler
 from piston.utils import rc, throttle, validate
 from django.core.exceptions import ObjectDoesNotExist
 
-from api.utility import apiUtility
+from api.utility import errorCodes
 
+from api.bookapiextend.models import Book, BookCategory
+from api.utility.apiUtility import ApiUtility, Error, Success
 
 import logging
-from api.bookapiextend.models import Book, BookCategory
-from api.utility.apiUtility import ApiUtility
+import sys
 
 class BookApiExtendedHandler(BaseHandler):
     allowed_methods = ('GET')
@@ -30,7 +31,11 @@ class BookApiExtendedHandler(BaseHandler):
                 return Book.objects.filter(book_cat__text = kwargs['cat_name'] ).values("name","id","book_title")
                 #return Book.objects.filter(book_cat__pk = kwargs['cat_id']).values("name","id","book_title")
 
+            return Error(errorCodes.NOT_FOUND, 'request not found').__dict__()
+        except :
+            return Error(errorCodes.BAD_REQUEST, 'bad request').__dict__()
+            #return Success(True).__dict__()
 
-            return {"error":"request not found"}
-        except ObjectDoesNotExist:
-            return {"error":"bad request"}
+    #@classmethod
+    #def book_cat(self, model):
+    #    return model.book_cat.values("text","id")
