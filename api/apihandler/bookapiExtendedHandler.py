@@ -1,6 +1,5 @@
 from piston.handler import BaseHandler, AnonymousBaseHandler
 from piston.utils import rc, throttle, validate
-from django.core.exceptions import ObjectDoesNotExist
 
 from api.utility import errorCodes
 

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b93bcb-183e-4994-86e0-72fb098be998" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/utility/errorCodes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample.dv" afterPath="$PROJECT_DIR$/sample.dv" />
+      <change type="DELETED" beforePath="C:\Django-1.4\prac\sampleRestAPI\api\apidoc.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/apihandler/bookapiExtendedHandler.py" afterPath="$PROJECT_DIR$/api/apihandler/bookapiExtendedHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/apihandler/bookapiHandler.py" afterPath="$PROJECT_DIR$/api/apihandler/bookapiHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/utility/apiUtility.py" afterPath="$PROJECT_DIR$/api/utility/apiUtility.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampleRestAPI/settings.py" afterPath="$PROJECT_DIR$/sampleRestAPI/settings.py" />
     </list>
     <ignored path="sampleRestAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +29,7 @@
       <file leaf-file-name="bookapiExtendedHandler.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/apihandler/bookapiExtendedHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="333" selection-end="333" vertical-scroll-proportion="-0.15178572">
+            <state line="1" column="47" selection-start="108" selection-end="108" vertical-scroll-proportion="-0.4047619">
               <folding />
             </state>
           </provider>
@@ -474,7 +470,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,7 +481,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961598" sideWeight="0.21731448" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32685512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -654,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/apihandler/bookapiExtendedHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="333" selection-end="333" vertical-scroll-proportion="-0.15178572">
+        <state line="1" column="47" selection-start="108" selection-end="108" vertical-scroll-proportion="-0.4047619">
           <folding />
         </state>
       </provider>
