@@ -51,7 +51,7 @@ class BookApiExtendedHandler(BaseHandler):
                 cat_id =attrs.get('category_id',None)
 
                 if book_name==None or not cat_id==None:
-                    return Error(error_codes.BAD_REQUEST, 'Missing parameters').__dict__()
+                    return Error(error_codes.BAD_REQUEST, 'Invalid parameters').__dict__()
 
 
                 book = Book.objects.create(name=book_name)
