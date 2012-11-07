@@ -54,7 +54,7 @@ class BookApiExtendedHandler(BaseHandler):
                     return Error(error_codes.BAD_REQUEST, 'Invalid parameters').__dict__()
 
 
-                book = Book.objects.create(name=book_name)
+                book = Book.objects.create(name=book_name) # TODO: should use get or create
                 book.save()
                 book.book_cat.add(cat_id) #m2m field
 
