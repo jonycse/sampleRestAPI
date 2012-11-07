@@ -6,6 +6,7 @@ class ApiUtility(object):
     def get_function_name(data, index=3):
         try:
             w=data.split('/')
+            #logging.error(w)
             return w[index]
         except:
             return False
