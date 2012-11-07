@@ -50,7 +50,7 @@ class BookApiExtendedHandler(BaseHandler):
                 book_name =attrs.get('book_name',None)
                 cat_id =attrs.get('category_id',None)
 
-                if book_name==None or not cat_id==None:
+                if book_name==None or cat_id==None:
                     return Error(error_codes.BAD_REQUEST, 'Invalid parameters').__dict__()
 
 
